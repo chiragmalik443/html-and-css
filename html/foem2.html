@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Form Elements</h1>
+   <fieldset>
+       <legend>
+           registration form
+
+       </legend>
+       <table>
+           <tr>
+               <td>name</td>
+               <td><input type="text" placeholder="enter name"></td>
+           </tr>
+           <tr>
+               <td>enter pasword</td>
+               <td><input type="password" placeholder="enter password"></td>
+           </tr>
+           <tr>
+               <td>enter email</td>
+               <td><input type="email" placeholder="enter email"></td>
+           </tr>
+           <tr>
+               <td>age</td>
+               <td><input type="number" min="20" max="30"></td>
+           </tr>
+           <tr>
+               <td>enter phone no.</td>
+               <td><input type="text" title="only digits are allowed length will be 10" pattern="[0-9]{10}" placeholder="enter phone no."></td>
+           </tr>
+           <tr>
+               <td>select country</td>
+               <td>
+                   <input list="datalist">
+                   <datalist id="datalist">
+                       <caption value="india"></caption>
+                       <caption value="china"></caption>
+                       <caption value="africa"></caption>
+                   </datalist>
+               </td>
+           </tr>
+           
+       </table>
+   </fieldset> 
+</body>
+</html>

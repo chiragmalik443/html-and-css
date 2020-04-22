@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <form action="#">
+    <fieldset>
+        <legend>Registration form</legend>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter Name"  autocomplete="on"></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="password" placeholder="EnterPassword" minlength="8" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td>Enter Email</td>
+                <td><input type="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" min="20" max="30"></td>
+            </tr>
+            <tr>
+                <td>Enter Phone Number</td>
+                <td><input type="text" title="Only digits are allowed,length will be 10" pattern="[0-9]{10}" placeholder="Enter ph no"></td>
+            </tr>
+            <tr>
+                <td>Select county</td>
+                <td>
+                    <input list="detaillist">
+                    <detailist id="datalist">
+                        <caption value="India"></caption>
+                        <caption value="china"></caption>
+                        <caption value="africa"></caption>
+                    </detailist>
+                </td>
+            </tr>
+            <tr>
+                <td>Choose color</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Enter DOB</td>
+                <td><input type="date"></td>
+                <td><input type="time" ></td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td>Select Range</td>
+                <td> <input type="range" name="point" min="0" max="70000" onchange="point1.value=point.value"></td>
+                <td><input type="output" name="point1" ></td>
+            </tr>
+            <tr>
+                <td>Enter message</td>
+                <td><textarea  cols="30" rows="10"></textarea></td>
+            </tr>
+            <td><input type="button" value="reset"></td>
+            <td><input type="button" value="submit"></td>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>

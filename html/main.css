@@ -1,0 +1,17 @@
+@media (min-width: 400px)
+
+.login-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #FEEDF6;
+    background: -webkit-gradient(linear, left top, right bottom, from(#FEEDF6), to(#FCF0E2));
+    background: -webkit-linear-gradient(top left, #FEEDF6, #FCF0E2);
+    background: -moz- oldlinear-gradient(top left, #FEEDF6, #FCF0E2);
+    background: -o-linear-gradient(top left, #FEEDF6, #FCF0E2);
+    background: linear-gradient(to bottom right, #FEEDF6, #FCF0E2);
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 40px;
+}
